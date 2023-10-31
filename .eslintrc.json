@@ -1,0 +1,49 @@
+{
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "plugin:import/typescript"
+  ],
+  "globals": {
+    "React": "readonly"
+  },
+
+  "rules": {
+    "no-unused-vars": [1, { "args": "after-used", "argsIgnorePattern": "^_" }],
+    "@typescript-eslint/no-namespace": "off",
+    "@typescript-eslint/ban-ts-ignore": "off",
+    "@typescript-eslint/ban-ts-comment": ["off"],
+    "ts-ignore": 0,
+    "react/jsx-no-duplicate-props": [1, { "ignoreCase": true }],
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "no-nested-ternary": "off",
+    "react/no-unescaped-entities": [0, {}],
+    "react/prop-types": "off",
+    "newIsCap": 0,
+    "new-cap": "off",
+    "linebreak-style": 0,
+    "global-require": 0,
+    "@typescript-eslint/quotes": [
+      "off",
+      "double",
+      {
+        "avoidEscape": true
+      }
+    ],
+    "react/jsx-uses-react": ["off"],
+    "react/react-in-jsx-scope": ["off"],
+    "react/jsx-props-no-spreading": "off",
+    "no-shadow": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
+  }
+}
