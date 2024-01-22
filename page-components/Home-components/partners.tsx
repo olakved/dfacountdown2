@@ -8,8 +8,8 @@ function PartnersSection() {
         <p className="font-[Raleway] font-[600] text-[32px] xlsm:text-[25px] leading-[43px] text-[#3CAE5C] text-center mb-[40px]">
           Supported By
         </p>
-        <div className="flex items-center justify-center gap-[82px] xlsm:gap-[30px] lg:flex-wrap">
-          <div className="h-[52px] w-[151px] xlsm:w-[120px]">
+        <div className="flex items-center justify-center gap-[50px] xlsm:gap-[30px] lg:flex-wrap">
+          <div className="h-[52px] w-[172px] xlsm:w-[120px]">
             <Image
               src="/Assets/png/FCDO.png"
               blurDataURL="/Assets/png/FCDO.png"
@@ -20,7 +20,7 @@ function PartnersSection() {
               layout="fill"
             />
           </div>
-          <div className="flex items-center gap-[82px]">
+          <div className="flex items-center gap-[50px]">
             <div className="h-[33px] w-[10px] lg:hidden">
               <Image
                 src="/Assets/svg/divider.svg"
@@ -32,19 +32,19 @@ function PartnersSection() {
                 layout="fill"
               />
             </div>
-            <div className="h-[52px] w-[104px]">
+            <div className="h-[70px] w-[172px]">
               <Image
-                src="/Assets/png/NITDA.png"
-                blurDataURL="/Assets/png/NITDA.png"
+                src="/Assets/png/NITDA.jpg"
+                blurDataURL="/Assets/png/NITDA.jpg"
                 priority
                 unoptimized={false}
-                alt="hero"
+                alt="nitda"
                 objectFit="contain"
                 layout="fill"
               />
             </div>
           </div>
-          <div className="flex items-center gap-[82px]">
+          <div className="flex items-center gap-[50px]">
             <div className="h-[33px] w-[10px] lg:hidden">
               <Image
                 src="/Assets/svg/divider.svg"
@@ -56,7 +56,7 @@ function PartnersSection() {
                 layout="fill"
               />
             </div>
-            <div className="h-[52px] w-[208px] xlsm:w-[120px]">
+            <div className="h-[52px] w-[172px] xlsm:w-[120px]">
               <Image
                 src="/Assets/svg/venture.svg"
                 blurDataURL="/Assets/svg/venture.svg"
@@ -68,7 +68,7 @@ function PartnersSection() {
               />
             </div>
           </div>
-          <div className="flex items-center gap-[82px]">
+          <div className="flex items-center gap-[50px]">
             <div className="h-[33px] w-[10px] lg:hidden">
               <Image
                 src="/Assets/svg/divider.svg"
