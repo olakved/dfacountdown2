@@ -11,8 +11,8 @@ function PartnersSection() {
         <div className="flex items-center justify-center gap-[82px] xlsm:gap-[30px] lg:flex-wrap">
           <div className="h-[52px] w-[151px] xlsm:w-[120px]">
             <Image
-              src="/Assets/svg/FCDO.svg"
-              blurDataURL="/Assets/svg/FCDO.svg"
+              src="/Assets/png/FCDO.png"
+              blurDataURL="/Assets/png/FCDO.png"
               priority
               unoptimized={false}
               alt="hero"
@@ -34,8 +34,8 @@ function PartnersSection() {
             </div>
             <div className="h-[52px] w-[104px]">
               <Image
-                src="/Assets/svg/NITDA.svg"
-                blurDataURL="/Assets/svg/NITDA.svg"
+                src="/Assets/png/NITDA.png"
+                blurDataURL="/Assets/png/NITDA.png"
                 priority
                 unoptimized={false}
                 alt="hero"
