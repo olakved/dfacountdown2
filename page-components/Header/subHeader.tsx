@@ -32,8 +32,8 @@ function SubHeader() {
                   />
                 </div>
                 <p className="text-[13px] leading-[20px] animate-marquee">
-                  All learning will end on Feb 20, 2024, and the competition
-                  will commence by May 3, 2024.
+                  All learning will end in July 2024 and competition will
+                  commence August 2024.
                 </p>
               </div>
               <div

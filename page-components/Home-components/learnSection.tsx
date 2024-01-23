@@ -9,9 +9,9 @@ const LearnerSection = () => {
       const scrollPosition = window.scrollY;
 
       // Set the current index based on scroll position
-      if (scrollPosition < 1300) {
+      if (scrollPosition < 1700) {
         setCurrentIndex(0);
-      } else if (scrollPosition < 1900) {
+      } else if (scrollPosition < 2300) {
         setCurrentIndex(1);
       } else {
         setCurrentIndex(2);
