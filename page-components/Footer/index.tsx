@@ -78,10 +78,10 @@ function Footer() {
                       layout="fill"
                     />
                   </div>
-                  <p className="text-[#FFFFFF] font-[] font-[400] leading-[24px] tracking-normal text-[16px] mt-[25px]">
+                  {/* <p className="text-[#FFFFFF] font-[] font-[400] leading-[24px] tracking-normal text-[16px] mt-[25px]">
                     <span>Address: </span>
                     <span>{companyData?.address}</span>
-                  </p>
+                  </p> */}
                   <p className="text-[#FFFFFF] tracking-normal font-[Ubuntu] font-[400] leading-[24px] text-[16px] mt-[15px]">
                     <a href={`mailto:${companyData?.mailInfo}`}>
                       <span>Email: </span>
