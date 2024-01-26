@@ -101,7 +101,7 @@ export const RegisterParticipateData = [
       },
       {
         num: '2.',
-        text: 'Complete Training - Complete the basic learning program to qualify for the competition.',
+        text: 'Complete Training - Complete either the basic or advanced learning program to qualify for the competition.',
       },
       {
         num: '3.',
@@ -118,7 +118,7 @@ export const RegisterParticipateData = [
       },
       {
         num: '2.',
-        text: 'Complete Training - Complete either the basic or advanced learning program to qualify for the competition.',
+        text: 'Complete Training - Complete the basic learning program to qualify for the competition.',
       },
       {
         num: '3.',
