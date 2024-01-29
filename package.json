@@ -9,7 +9,6 @@
     "lint": "next lint",
     "lint:fix": "eslint . --fix --max-warnings=0",
     "format": "prettier . --write",
-    "prepare": "husky install",
     "commit": "git-cz",
     "check-types": "tsc --pretty --noEmit",
     "check-format": "prettier --check .",
