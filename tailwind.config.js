@@ -5,12 +5,8 @@ module.exports = {
     './page-components/**/*.{js,ts,jsx,tsx}',
     './sharedComponents/**/*.{js,ts,jsx,tsx}',
   ],
-  mode: 'jit',
-  darkMode: 'class',
+
   theme: {
-    fontFamily: {
-      babablu: ['Montserrat'],
-    },
     screens: {
       xxlA: { min: '1440px' },
       // => @media (max-width: 1535px) { ... }
@@ -48,6 +44,11 @@ module.exports = {
     extend: {
       maxWidth: {
         '8xl': '1980px',
+      },
+      fontFamily: {
+        primary: ['Inter'],
+        secondary: ['Roboto'],
+        tertiary: ['Anonymous Pro'],
       },
     },
   },

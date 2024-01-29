@@ -1,5 +1,5 @@
 {
-  "name": "boosta",
+  "name": "dfacountdown",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -27,7 +27,14 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.11.0",
     "tailwind-scrollbar-hide": "^1.1.7",
-    "yup": "^1.2.0"
+    "yup": "^1.2.0",
+    "axios": "^1.6.5",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "init": "^0.1.2",
+    "mongoose": "^8.1.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",

@@ -6,15 +6,15 @@ export default function Document() {
       <Head>
         <meta
           name="description"
-          content="Welcome to Digital For All Challenge! We believe and are driven by the fact that every Nigerian deserves the right to digital literacy and skills for the future of work!"
+          content="The Digital for All Challenge is a platform designed to reward self-development and encourage the acquisition and use of digital skills."
         />
-        <link rel="icon" href="/Assets/dfaLogo.png" />
+        <link rel="icon" href="/logo.png" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
 
         <link
-          href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap"
           rel="stylesheet"
         />
       </Head>
