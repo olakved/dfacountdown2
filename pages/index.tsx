@@ -84,7 +84,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* Balls and star background */}
+      {/* Balls and star background ...*/}
 
       <div className="">
         <div className="max-content z-[999]">
