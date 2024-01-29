@@ -1,18 +1,18 @@
-'use client';
-import logo from '@/public/assets/logo.png';
-import linkedin from '@/public/assets/linkedin.svg';
-import x from '@/public/assets/x.svg';
-import instagram from '@/public/assets/instagram.svg';
-import youtube from '@/public/assets/youTube.svg';
-import elements from '@/public/assets/elements.svg';
-import balls from '@/public/assets/balls.svg';
-import { postRequest } from '../utils/apiCall';
-import CountdownTimer from '@/pages/components/coundownTimer';
-import Image from 'next/image';
-import { useState } from 'react';
+"use client";
+import logo from "@/public/assets/logo.png";
+import linkedin from "@/public/assets/linkedin.svg";
+import x from "@/public/assets/x.svg";
+import instagram from "@/public/assets/instagram.svg";
+import youtube from "@/public/assets/youTube.svg";
+import elements from "@/public/assets/elements.svg";
+import balls from "@/public/assets/balls.svg";
+import { postRequest } from "../utils/apiCall";
+import CountdownTimer from "@/pages/components/coundownTimer";
+import Image from "next/image";
+import { useState } from "react";
 
 export default function Home() {
-  const [savetext, setSaveTest] = useState('');
+  const [savetext, setSaveTest] = useState("");
   const [loading, setLoading] = useState(false);
 
   const isValidEmail = (email: string): boolean => {
@@ -27,7 +27,7 @@ export default function Home() {
 
   const handleBlur = () => {
     if (!isValidEmail(savetext)) {
-      alert('Invalid Email');
+      alert("Invalid Email");
     }
   };
 
@@ -35,22 +35,22 @@ export default function Home() {
     e.preventDefault();
 
     if (!isValidEmail(savetext)) {
-      alert('Invalid Email');
+      alert("Invalid Email");
       return;
     }
     setLoading(true);
-    const url = '/api/submit';
+    const url = "/api/submit";
     const res = await postRequest({
       url,
       data: { email: savetext },
     });
 
     if (res?.status === 200) {
-      alert('Email saved successfully');
+      alert("Email saved successfully");
     }
 
     setLoading(false);
-    setSaveTest('');
+    setSaveTest("");
   };
 
   return (
@@ -116,14 +116,14 @@ export default function Home() {
                       Digital For All Challenge
                     </p>
                     <p className="font-secondary whitespace-nowrap font-[700] text-[14px] leading-[21px] mt-[16px]">
-                      Up to{' '}
+                      Up to{" "}
                       <span className="decoration-double line-through text-[18px] text-[red]">
                         N
                       </span>
                       <span className="text-[18px] text-[red]">
                         150 Million
-                      </span>{' '}
-                      {''}
+                      </span>{" "}
+                      {""}
                       to be won in cash and consolation prizes. T&Cs apply.
                     </p>
                     <p className="font-secondary  font-[400] text-[14px] leading-[21px] mt-[16px]">
@@ -147,12 +147,12 @@ export default function Home() {
                       type="submit"
                       className="rounded-[5px] cursor-pointer w-[30%]  xlsm:w-full py-[12px] px-[12px] bg-[#3CAE5B] text-[16px] leading-[24px] font-[400] text-white font-secondary"
                     >
-                      {loading ? 'Loading...' : 'Join the Waitlist'}
+                      {loading ? "Loading..." : "Join the Waitlist"}
                     </button>
                   </div>
                   <p className="font-secondary font-[400] text-[11px] leading-[17px] mt-[16px]">
                     By submitting your email address, you are confirming that
-                    you agree with our {''}
+                    you agree with our {""}
                     <a
                       href="https://tech4dev.com/privacyPolicy.html"
                       target="blank"
